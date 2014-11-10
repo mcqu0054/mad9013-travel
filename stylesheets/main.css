@@ -1,0 +1,267 @@
+/*******************************************
+				Baseline
+*******************************************/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: auto 0;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+body{
+    background-image: url("http://wallalay.com/wp-content/uploads/2014/09/Clouds-31.jpg");
+    background-color: #099;
+    padding: 10px;
+}
+
+.intro{
+    padding-bottom: 20px;
+}
+
+.intro ul{
+    list-style: none;
+}
+
+.destination {
+        padding: 6px;
+        height: auto;
+        width: auto;
+        
+    }
+.arrival {
+        padding: 6px;
+        height: auto;
+        width: auto;
+    }
+.guests {
+        padding: 6px;
+        height: auto;
+        width: auto;
+    }
+.amenities {
+        padding: 6px;
+        height: auto;
+        width: auto;      
+    }
+
+.amenities ul {
+    list-style: none;
+}
+
+.price {
+        padding: 6px;
+        height: auto;
+        width: auto;
+        
+    }
+.contact {
+    background-color: #603;
+    color: #fff;
+    border: solid #099;
+    padding: 12px;
+}
+.foot {
+    background-color: #099;
+}
+.submit {
+    padding: 20px;
+}
+.foot{
+    padding: 10px;
+    margin-top: 10px;
+    color: #fff;
+}
+p,
+li {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 0.85rem;
+}
+h3 {
+    color: #fc0;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.15rem;
+}
+h4 {
+    color: #603;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.15rem
+}
+
+.foot:before,
+.foot:after{
+    content:"";
+    display:table;
+    }
+.foot:after{
+    clear:both;
+    }
+
+.contact:before,
+.contact:after{
+    content:"";
+    display:table;
+    }
+.contact:after{
+    clear:both;
+}
+    
+/*******************************************
+				Images & Icons
+*******************************************/
+.icon {
+    max-height: 90px;
+    max-width: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid #099;
+    padding: 5px;
+    border-radius: 15%;
+}
+.logo {
+    max-height: 300px;
+    max-width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+}
+
+.plane{
+    max-height: 125px;
+    max-width: 125px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#destination {
+    font-size: 1.25rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid #099;
+    padding: 5px;
+    }
+/*******************************************
+				Media Queries
+*******************************************/
+@media all and (max-width: 780px) and (min-width: 500px){
+    #first {
+        width:50%;
+        height: auto;
+        float: left;
+    }
+    #second {
+        width:50%;
+        height: auto;
+        float: left;
+    }
+    .submit {
+        clear: both;
+    }
+    .icon {
+        max-height: 75px;
+        max-width: 75px;
+    }
+    p,
+    li {
+    font-size: 0.75rem;
+    }
+    
+    h3,
+    h4 {
+        font-size: 1rem;
+    }
+    .logo {
+    max-height: 250px;
+    max-width: 250px;
+    }
+    .plane{
+        max-height: 110px;
+        max-width: 110px;
+        padding: 5px;
+    }
+    #destination {
+        font-size: 1rem;
+    }
+     .intro li{
+        font-size: 0.95rem;    
+    }
+    .intro h3{
+        font-size: 1.3rem;
+    }
+    
+}
+    
+@media all and (min-width: 781px){
+    .destination {
+        width: 100%;
+        height: auto;
+        float:left;
+    }
+    .arrival {
+        width: 25%;
+        height: auto;
+        float:left;
+    }
+    .guests {
+        width: 25%;
+        height: auto;
+        float:left;
+    }
+     
+    .amenities {
+        width: 25%;
+        height: auto;
+        float:left;
+    }
+   
+    .price {
+        width: 25%;
+        height: auto;
+        float:left;
+    } 
+    .submit {
+        clear:both;
+    }
+    .icon {
+        max-height: 50px;
+        max-width: 50px;
+    }
+    p,
+    li {
+    font-size: 0.60rem;
+    }
+    
+    h3,
+    h4 {
+        font-size: 0.9rem;
+    }
+    
+    .logo {
+    max-height: 200px;
+    max-width: 200px;
+    }
+    
+    .plane{
+        max-height: 95px;
+        max-width: 95px;
+    }
+    #destination {
+        font-size: 0.80rem;
+    }
+    .intro li{
+        font-size: 0.8rem;    
+    }
+    .intro h3{
+        font-size: 1.15rem;
+    }
+    
+}
